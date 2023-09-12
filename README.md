@@ -21,5 +21,12 @@ To clean the employee table, i converted the employee id data type from whole nu
 ![](order_detail.png)
 This table contains the order id and details such as the product id, the price per unit, the discount applied to each order and the quantity of orders made. Going through this data, the only cleaning done was to convert the order id and product id whole number data type to text since no aggregations would be done with it.
 #### **Orders**
-
-This table contains columns showing details about each order, the customer id, the shipping details, the shipper id and freight detail. I converted the order id, employee id, and shipper id to text data type and deleted the requirement date. 
+![](orders1.png)
+This table contains columns showing details about each order, the customer id, the shipping details, the shipper id and freight details. I converted the order id, employee id, and shipper id to text data type and deleted the requirement date. 
+#### **Products**
+![](products.png)
+This table shows details about each product, the product id and category id columns were both converted to text data type and the rest of the data were valid without errors.
+#### **Shippers**
+![](shippers.png)
+The data type of shipper id column in this table was converted from whole number to text data type and the other column was without error.
+## DASHBOARD
