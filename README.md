@@ -1,9 +1,18 @@
 ## INTRODUCTION
-North wind traders is an import and export company, that specializes in the transport of food, beverages, gourmet and all sorts of goods. The company has been in operation for 3 years and have made significant progress and sales since commencement of it's operation. It has expanded across several countries in Europe and South America, and has built a solid customer loyalty. 
+North Wind Traders is an import and export company, that specializes in the transport of food, beverages, gourmet and all sorts of goods. The company has been in operation for 3 years and has made significant progress and sales since the commencement of its operation. It has expanded across several countries in Europe and South America and has built solid customer loyalty. 
 ## PROBLEM STATEMENT 
-After 3 years of operation, the company wants to take a deep look into it's sales performance as it noticed a recent decline from previous sales performance. It employed my service as a data analyst to help draw insights into their performance in different areas of the business, these insights would be beneficial to the company in it's decision-making process to improve their annual turnover and help them to cut costs in their operation process.
+After 3 years of operation, the company wants to take a deep look into its sales performance as it noticed a recent decline from previous sales performance. It employed my service as a data analyst to help draw insights into their performance in different areas of the business, These insights would be beneficial to the company in its decision-making process to improve their annual turnover and help them to cut costs in their operation process.
 ## METHODOLOGY 
-To begin drawing insights for this company, i was provided with the company's dataset dating from July 2013 to September 2015. This dataset is made up 7 different tables; categories, customers, employees, order, order details, products, shipper; each table possessing different data and data type.
-- **Tool Used**
+To begin drawing insights for this company, i was provided with the company's dataset dating from July 2013 to September 2015. This dataset is made up of 7 different tables; categories, customers, employees, order, order details, products, and shippers; each table possesses different data and data types.
+### **Tools Used**
 - Microsoft PowerBI
 - Power Query 
+### Data Cleaning and Preprocessing
+I began the data cleaning process by importing each table into the Microsoft PowerBI desktop platform, then proceeded to transform the data using Power Query. Starting with the **categories table**;
+![](categories.png)
+Upon exploration of this table's data, I discovered it consisted of the categories of products that the company ships across each nation of its operation to customers. It is made up of the category id column which I converted to a text data type from whole number datatype because we won't be summarising the data in the column, The table is also made up of the category name and its description which after exploration, no errors was found in the data.
+#### **Customer**
+![](customers.png)
+To begin cleaning this table, I promoted the first row to the header position because the columns in the table had a default column name. I went on to standardize the customer id column to a proper text by capitalising the first letter in the column, after this no other error was found in the data.
+#### **Employees**
+![](employees.png)
