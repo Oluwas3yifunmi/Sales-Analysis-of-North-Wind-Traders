@@ -15,7 +15,7 @@ Upon exploration of this table's data, I discovered it consisted of the categori
 ![](customers.png)
 To begin cleaning this table, I promoted the first row to the header position because the columns in the table had a default column name. I went on to standardize the customer id column to a proper text by capitalising the first letter in the column, after this no other error was found in the data.
 #### **Employees**
-![](employees.png)
+
 To clean the employee table, i converted the employee id data type from whole number to text data type because no aggregation eould be performed with this data. This table gives insight into the employees at the company, their various positions and their country. After converting the employee id column data type, i noticed a null value in the reports to column which tells who each employee reports their activities to, the column was deleted because it would not be needed in the analysis.
 #### **Order Details**
 This table contains the order id and details such as the product id, the price per unit, discount applying to each order and the quantity of orders made. Going through this data, the only cleaning done was to convert the order id and product id whole number data type to text since no aggregations would be done with it.
