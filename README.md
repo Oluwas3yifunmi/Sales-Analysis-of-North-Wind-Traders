@@ -30,3 +30,4 @@ This table shows details about each product, the product id and category id colu
 ![](shippers.png)
 The data type of shipper id column in this table was converted from whole number to text data type and the other column was without error.
 ## DASHBOARD
+![](dashboard1.png)
