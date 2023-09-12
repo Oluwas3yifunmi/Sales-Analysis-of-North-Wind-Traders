@@ -5,5 +5,5 @@ After 3 years of operation, the company wants to take a deep look into it's sale
 ## METHODOLOGY 
 To begin drawing insights for this company, i was provided with the company's dataset dating from July 2013 to September 2015. This dataset is made up 7 different tables; categories, customers, employees, order, order details, products, shipper; each table possessing different data and data type.
 - **Tool Used**
---Microsoft PowerBI
---Power Query 
+- Microsoft PowerBI
+- Power Query 
