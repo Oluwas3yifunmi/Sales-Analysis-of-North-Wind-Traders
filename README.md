@@ -20,3 +20,6 @@ To clean the employee table, i converted the employee id data type from whole nu
 #### **Order Details**
 ![](order_detail.png)
 This table contains the order id and details such as the product id, the price per unit, the discount applied to each order and the quantity of orders made. Going through this data, the only cleaning done was to convert the order id and product id whole number data type to text since no aggregations would be done with it.
+#### **Orders**
+
+This table contains columns showing details about each order, the customer id, the shipping details, the shipper id and freight detail. I converted the order id, employee id, and shipper id to text data type and deleted the requirement date. 
